@@ -1,0 +1,102 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.question-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.question-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.question-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.choice-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.choice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.response-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.response-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.response-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.response-text {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    min-height: 250px;
+}
+
+.add-question-button {
+    width: 100%;
+    height: 3rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    order: 999;
+}
+
+.add-question-button:hover {
+    background-color: #e6e6e6;
+}
+
+.submit-button {
+    width: 100%;
+    height: 3rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    order: 1000;
+}
+
+.submit-button:hover {
+    background-color: #e6e6e6;
+}
+#res-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.remove-button {
+    width: fit-content;
+    height: 3rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
